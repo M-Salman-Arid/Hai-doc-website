@@ -1,0 +1,65 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+}
+
+header p{
+    margin: 0;
+    font-size: 24px;
+    color: #172048;
+}
+
+.Doc-style {
+    font-weight: 700;
+    font-style: bold;
+}
+
+nav {
+    display: flex;
+    gap: 80px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #C4C4C4;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #172048;
+    transition: 0.3s;
+}
+
+header button {
+    background: linear-gradient(to right, #56E0E0, #007299 );
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 39px;
+    cursor: pointer;
+    font-size: 16px;
+    gap: 10px;
+}
+
+header button:hover {
+    background: linear-gradient(to right, #007299, #56E0E0);
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 920px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    
+}
